@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.vivefocus3.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\KSURealitiesLab\\Desktop\\DEV\\VR-Telepresence-360deg-Video-Streaming\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "ViveFocus3 [Testing]"
+        }
+      }
+    }
+  ]
+}
