@@ -21,3 +21,10 @@ The project originally compiled and ran with the old code. However, after an att
 * Root Cause: The reinstallation of XRI resulted in a newer version incompatible with the existing codebase.
 * Solution: Inspected current XRI version and documentation. Updated the C# scripts to adhere to modern XRI conventions. Removed unnecessary and incorrect namespace scope resolution statements. Specifically, removed the "Interactor" namespace which was no longer part of the current XRI structure.
 * Outcome: Successfully compiled and ran the project after these changes.
+
+## Contributors
+* Nicholas Wile
+<!--
+* Afifa Jinan
+put your name here!
+-->
