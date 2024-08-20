@@ -43,10 +43,6 @@ public class UI_InteractionController : MonoBehaviour
 
         //Deactivating UI Controller by default
 
-        /* This is outdated -NW
-        UIController.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRRayInteractor>().enabled = false;
-        UIController.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals.XRInteractorLineVisual>().enabled = false;
-        */
         UIController.GetComponent<XRRayInteractor>().enabled = false;
         UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
     }
@@ -63,16 +59,10 @@ public class UI_InteractionController : MonoBehaviour
             isUICanvasActive = true;
 
             //Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
-            /* 
-            UIController.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRRayInteractor>().enabled = true;
-            UIController.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals.XRInteractorLineVisual>().enabled = true;
-            */
-
             UIController.GetComponent<XRRayInteractor>().enabled = true;
             UIController.GetComponent<XRInteractorLineVisual>().enabled = true;
 
             //Deactivating Base Controller by disabling its XR Direct Interactor
-            // BaseController.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRDirectInteractor>().enabled = false;
             BaseController.GetComponent<XRDirectInteractor>().enabled = false;
 
 
@@ -91,11 +81,6 @@ public class UI_InteractionController : MonoBehaviour
             isUICanvasActive = false;
 
             //De-Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
-            
-            /*
-            UIController.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRRayInteractor>().enabled = false;
-            UIController.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals.XRInteractorLineVisual>().enabled = false;
-            */
             UIController.GetComponent<XRRayInteractor>().enabled = false;
             UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
 
