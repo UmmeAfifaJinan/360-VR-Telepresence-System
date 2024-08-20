@@ -14,6 +14,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 ...
 XRBaseController m_BaseController;
 ```
+The project originally compiled and ran with the old code. However, after an attempted port from Windows to Android, then back to Windows, the project no longer compiled.
 * Initial Problem: Compiler errors due to missing namespace "Interactors" in XR Interaction Toolkit.
 * Context: Old project with outdated XRI version, complicated by an attempted port from Windows to Android.
 * Attempted Solutions: Uninstalling and reinstalling XRI and its dependencies, which didn't resolve the issue.
